@@ -156,11 +156,13 @@ koverReport {
     }
 }
 
+val sonatypeReleaseUrl = project.property("sonatypeReleaseUrl") ?: "https://oss.sonatype.org/service/local/"
+val sonatypeSnapshotUrl = project.property("sonatypeSnapshotUrl") ?: "https://oss.sonatype.org/content/repositories/snapshots/"
 nexusPublishing {
     repositories {
         sonatype {
-            nexusUrl = uri("https://oss.sonatype.org/service/local/")
-            snapshotRepositoryUrl = uri("https://oss.sonatype.org/content/repositories/snapshots/")
+            nexusUrl = uri(sonatypeReleaseUrl)
+            snapshotRepositoryUrl = uri(sonatypeSnapshotUrl)
 
             val sonatypeUsername: String? by project
             val sonatypePassword: String? by project
