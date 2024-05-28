@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.9.22"
+kotlin = "2.0.0"
 
 [libraries]
 # kotlin
@@ -23,24 +23,24 @@ hibernate6-core = { module = "org.hibernate:hibernate-core", version = "6.0.0.Fi
 
 # hibernate-reactive
 hibernate-reactive1-core = { module = "org.hibernate.reactive:hibernate-reactive-core", version = "1.0.0.Final" }
-hibernate-reactive2-core = { module = "org.hibernate.reactive:hibernate-reactive-core", version = "2.0.0.Final" }
+hibernate-reactive2-core = { module = "org.hibernate.reactive:hibernate-reactive-core", version = "2.3.0.Final" }
 
 # eclipse-link
 eclipselink2 = { module = "org.eclipse.persistence:org.eclipse.persistence.jpa", version = "2.7.0" }
 eclipselink3 = { module = "org.eclipse.persistence:org.eclipse.persistence.jpa", version = "3.0.0" }
 
 # spring-boot
-spring-boot3-starter = { module = "org.springframework.boot:spring-boot-starter", version = "3.0.3" }
+spring-boot3-starter = { module = "org.springframework.boot:spring-boot-starter", version = "3.3.0" }
 spring-boot2-starter = { module = "org.springframework.boot:spring-boot-starter", version = "2.7.10" }
 
 # spring
-spring-jdbc = { module = "org.springframework:spring-jdbc", version = "6.0.11" }
+spring-jdbc = { module = "org.springframework:spring-jdbc", version = "6.1.8" }
 
-spring-batch5-infrastructure = { module = "org.springframework.batch:spring-batch-infrastructure", version = "5.0.0" }
+spring-batch5-infrastructure = { module = "org.springframework.batch:spring-batch-infrastructure", version = "5.1.2" }
 spring-batch4-infrastructure = { module = "org.springframework.batch:spring-batch-infrastructure", version = "4.0.0.RELEASE" }
 
 # https://github.com/spring-projects/spring-data-jpa/issues/2812
-spring-data-jpa3 = { module = "org.springframework.data:spring-data-jpa", version = "3.0.3" }
+spring-data-jpa3 = { module = "org.springframework.data:spring-data-jpa", version = "3.3.0" }
 spring-data-jpa2 = { module = "org.springframework.data:spring-data-jpa", version = "2.7.9" }
 
 # test

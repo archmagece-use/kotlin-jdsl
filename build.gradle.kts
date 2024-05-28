@@ -47,8 +47,8 @@ allprojects {
         jvmToolchain(8)
 
         compilerOptions {
-            apiVersion = KotlinVersion.KOTLIN_1_7
-            languageVersion = KotlinVersion.KOTLIN_1_7
+            apiVersion = KotlinVersion.KOTLIN_1_9
+            languageVersion = KotlinVersion.KOTLIN_1_9
         }
     }
 
@@ -98,7 +98,7 @@ allprojects {
                     description.set(
                         "Kotlin library that makes it easy to build and execute queries without generated metamodel.",
                     )
-                    url.set("https://github.com/line/kotlin-jdsl")
+                    url.set("https://github.com/archmagece-use/kotlin-jdsl")
 
                     licenses {
                         license {
@@ -121,9 +121,9 @@ allprojects {
                     }
 
                     scm {
-                        connection.set("scm:git@github.com:line/kotlin-jdsl.git")
-                        developerConnection.set("scm:git:ssh://github.com:line/kotlin-jdsl.git")
-                        url.set("https://github.com/line/kotlin-jdsl")
+                        connection.set("scm:git@github.com:archmagece-use/kotlin-jdsl.git")
+                        developerConnection.set("scm:git:ssh://github.com:archmagece-use/kotlin-jdsl.git")
+                        url.set("https://github.com/archmagece-use/kotlin-jdsl")
                     }
                 }
             }
